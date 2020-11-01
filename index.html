@@ -2,65 +2,111 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Project</title>
-    
-</head>
-<style>
-    .dropbtn {
-      background-color: #e6c81e ;
-      color: white;
-      padding: 16px;
-      font-size: 16px;
-      border: none;
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Senna</title>
+  <style>
+    * {
+      box-sizing: border-box;
     }
     
-    .dropdown {
-      position: sticky;
-      display: inline-block;
+    .column {
+      float: left;
+      width: 50%;
+      padding: 5px;
     }
     
-    .dropdown-content {
-      display: none;
-      position: absolute;
-      background-color: #f1f1f1;
-      min-width: 160px;
-      box-shadow: 0px 8px 16px 0px rgba(82, 80, 80, 0.2);
-      z-index: 1;
+    /* Clearfix (clear floats) */
+    .row::after {
+      content: "";
+      clear: both;
+      display: table;
     }
-    
-    .dropdown-content a {
-      color: black;
-      padding: 12px 16px;
-      text-decoration: none;
-      display: block;
-    }
-    
-    .dropdown-content a:hover {background-color: #ddd;}
-    
-    .dropdown:hover .dropdown-content {display: block;}
-    
-    .dropdown:hover .dropbtn {background-color: #3e8e41;}
     </style>
 
+</head>
+<style>
+  .dropbtn {
+    background-color: #e6c81e;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+
+  .dropdown {
+    position: sticky;
+    display: inline-block;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(82, 80, 80, 0.2);
+    z-index: 1;
+  }
+
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  .dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+  }
+</style>
+
 <body>
-    <header>
-        <div class="dropdown">
-            <button class="dropbtn">Menü</button>
-            <div class="dropdown-content">
-              <a href="/index.html">Home</a>
-              <a href="/Pages/Works.html">Work</a>
-              <a href="/Pages/Gallery.html">Gallery</a>
-              <a href="/Pages/About.html">About</a>
-            </div>
+  <header>
+    <div class="dropdown">
+      <button class="dropbtn">Menü</button>
+      <div class="dropdown-content">
+        <a href="/index.html">Home</a>
+        <a href="/Pages/Works.html">Work</a>
+        <a href="/Pages/Gallery.html">Gallery</a>
+        <a href="/Pages/About.html">About</a>
+      </div>
+    </div>
+
+    <h1>Ikonikus F1-es Pilóták.</h1>
+    <h3>Ayrton Senna da Silva.</h3>
+
+    <h3>Ki volt Senna?</h3>
+
+    <h2>Egy ember, aki mindig próbálta kihozni magából a maximumot.
+      De a technikai és túlfeszített követelmények ellenére, megőrízte emberségét.
+    </h2>
+
+
+  </header>
+  <nav></nav>
+  <main>
+    <section>
+      <div class="row">
+        <div class="column">
+          <img src="/images/home_img/Senna by José Bispo on 500px.jpg"  style="width:100%">
+        </div>
+        <div class="row">
+          <div class="column">
+            <img src="/images/home_img/McLaren and Unique & Limited launch art print and posters celebrating Ayrton Senna - Ayrton Senna.jpg"  style="width:100%">
           </div>
-        
-        <h1>Ikonikus F1-es Pilóták.</h1>
-        <h3>Ayrton Senna da Silva.</h3>
-
-
-    </header>
+    </section>
+  </main>
+  <footer>
+    
+  </footer>
 
 </body>
 
