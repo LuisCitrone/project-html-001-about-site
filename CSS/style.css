@@ -1,5 +1,5 @@
     
-     bady{
+     body{
      background-color: rgb(240, 240, 240);
      margin: 0;
      padding: 0;
@@ -101,19 +101,19 @@
   .dropdown:hover .dropbtn {
     background-color: #3e8e41;
   } 
-  /*   @media screen and (min-width:768px){
+    /* @media screen and (min-width: 768px) {
     .behavier-box{
       width: 45%;
     }
-    .Gallery-container{
+    .Gallery-container {
       width: 47%;
     }
    /* pc méret */
-     /*  @media screen and (min-width:968px){
+     /* @media screen and (min-width: 968px) {
       .behavier-box{
         width: 30%;
       }
-      .Gallery-container{
+      .Gallery-container {
         width: 30%;
         margin: 1%;
       }  */
