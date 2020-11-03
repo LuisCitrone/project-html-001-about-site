@@ -1,4 +1,5 @@
-    bady{
+    
+     bady{
      background-color: rgb(240, 240, 240);
      margin: 0;
      padding: 0;
@@ -21,16 +22,17 @@
      box-shadow: 0 0 3px black;
 
    }
-   /* works */
-   #works-section article{
+   
+
+   #Work-section article {
      border-bottom: solid 2px white;
      margin-bottom: 2em;
    }
-   #works-section article img {
+   #Work-section article img {
      width: 25%;
      margin: 2%;
    }
-   #works-section article .right-content{
+   #Work-section article .right-content {
      display: inline-block;
      width: 70%;
      vertical-align: top;
@@ -38,15 +40,13 @@
 
    /* gallery pages*/
 
-   .Gallery-container img{
+   .Gallery-container img {
      width: 32%;
      margin-right: 0%;
      margin-left: 0%;
     }
    
-    /*{
-      box-sizing: border-box;
-    }*/
+  
 
     .column {
       float: left;
@@ -101,7 +101,7 @@
   .dropdown:hover .dropbtn {
     background-color: #3e8e41;
   } 
-  /* @media screen and (min-width:768px){}
+  /*   @media screen and (min-width:768px){
     .behavier-box{
       width: 45%;
     }
@@ -109,7 +109,7 @@
       width: 47%;
     }
    /* pc méret */
-    /*  @media screen and (min-width:968px){
+     /*  @media screen and (min-width:968px){
       .behavier-box{
         width: 30%;
       }
@@ -117,4 +117,4 @@
         width: 30%;
         margin: 1%;
       }  */
-    }
+  
