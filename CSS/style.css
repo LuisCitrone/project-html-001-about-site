@@ -9,7 +9,7 @@
    }
    .behavier-box {
      display: inline-block;
-     width: 31%;
+     width: 30%;
      margin-right: 2%;
      box-sizing: border-box;
      background-color: greenyellow;
@@ -22,7 +22,8 @@
      box-shadow: 0 0 3px black;
 
    }
-   
+
+   /*Work pages*/
 
    #Work-section article {
      border-bottom: solid 2px white;
@@ -44,6 +45,7 @@
      width: 32%;
      margin-right: 0%;
      margin-left: 0%;
+     
     }
    
   
@@ -101,20 +103,27 @@
   .dropdown:hover .dropbtn {
     background-color: #3e8e41;
   } 
-    /* @media screen and (min-width: 768px) {
+ /*Gallery page*/
+ /*.Gallery-container img{
+   width: 100%;
+   margin-right: 0;
+   margin-left: 0;
+
+ }*/
+  /*tablet méret*/
+   /*  @media screen and (min-width:768px) {
     .behavier-box{
       width: 45%;
     }
     .Gallery-container {
       width: 47%;
-    }
+    }*/
    /* pc méret */
-     /* @media screen and (min-width: 968px) {
+    /*  @media screen and (min-width: 968px) {
       .behavier-box{
         width: 30%;
       }
       .Gallery-container {
         width: 30%;
         margin: 1%;
-      }  */
-  
+      }*/
