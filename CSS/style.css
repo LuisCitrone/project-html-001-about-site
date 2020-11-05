@@ -104,26 +104,26 @@
     background-color: #3e8e41;
   } 
  /*Gallery page*/
- /*.Gallery-container img{
-   width: 100%;
+  .Gallery-container img{
+   width: 30%;
    margin-right: 0;
    margin-left: 0;
 
- }*/
+ }
   /*tablet méret*/
-   /*  @media screen and (min-width:768px) {
+    @media screen and (min-width:768px) {
     .behavier-box{
-      width: 45%;
+      width: 45%;}
     }
     .Gallery-container {
-      width: 47%;
-    }*/
+      width: 47%;}
+    
    /* pc méret */
-    /*  @media screen and (min-width: 968px) {
+      @media screen and (min-width: 968px) {
       .behavier-box{
-        width: 30%;
+        width: 30%;}
       }
       .Gallery-container {
-        width: 30%;
+        width: 100%;
         margin: 1%;
-      }*/
+      }
